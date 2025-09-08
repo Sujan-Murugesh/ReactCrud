@@ -67,8 +67,6 @@ npm run dev
 ```
 9. Visit to the route `http://localhost:5173` in the browser.
 
-**Note:** If you are running this project on linux, then you might get this error. I got this on linux mint however it was running fine in windows 11 machine. 
-
 
 ## screenshot
 
