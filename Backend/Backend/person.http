@@ -1,0 +1,31 @@
+@base_address = http://localhost:5140/api/people
+
+### Create a new person
+POST {{base_address}}
+Content-Type: application/json
+
+{
+    "firstName": "sujan",
+    "lastName": "Doe"
+}
+
+### Update a person
+PUT {{base_address}}/6
+Content-Type: application/json
+
+{
+    "id": 6,
+    "firstName": "Singam",
+    "lastName": "Puli"
+}
+
+
+
+### Get all people
+GET {{base_address}}
+
+### Get a person by ID
+GET {{base_address}}/1
+
+### Delete a person by ID
+DELETE {{base_address}}/8
